@@ -1,0 +1,56 @@
+[
+    {
+        "section1" : 
+        {
+        "title": "The leading Customer Application for your daily workspace.",
+        "subtitle":"Join thousands of Dentists worldwide who are currently preparing to be a Dentist in the UK.",
+        "images1":"applestore.png",
+        "images2":"googleplay.png",
+        "images3":"bannerimage.avif"
+        },
+
+        "section2":
+        {
+          "title":"About Us",
+           "img":"",
+          "content":"When it comes to money, there's no room for compromise. We've built Plum from the ground up with your security and privacy in mind. Need a hand? You can chat directly to our team through your Plum app. Alternatively, you can email or call us."
+        },
+        "section3":
+        {
+          "title":"Our Skills",
+           "img":"",
+          "content":"When it comes to money, there's no room for compromise. We've built Plum from the ground up with your security and privacy in mind. Need a hand? You can chat directly to our team through your Plum app. Alternatively, you can email or call us."
+        },
+        "section4":
+        {
+          "title":"Our Services",
+           "img":"",
+          "content":"When it comes to money, there's no room for compromise. We've built Plum from the ground up with your security and privacy in mind. Need a hand? You can chat directly to our team through your Plum app. Alternatively, you can email or call us."
+        },
+        "section5":
+        {
+          "title":"Our Portfolio",
+          "img":"",
+          "content":"When it comes to money, there's no room for compromise. We've built Plum from the ground up with your security and privacy in mind. Need a hand? You can chat directly to our team through your Plum app. Alternatively, you can email or call us."
+        },
+       
+        "contactus" : 
+        {
+          "title": "Contact Us",
+          "firstname":"First Name",
+          "Lastname" :"Last Name",
+          "Email" :"Email Address",
+          "Mobile":"Mobile Number",
+          "Message":"Message",
+          "ButtonText":"Submit"
+        },
+
+        "footer":
+        {
+           "logo":"TestLogo",
+           "logo_description":"When it comes to money, there's no room for compromise. We've built Plum from the ground up with your security and privacy in mind. Need a hand? You can chat directly to our team through your Plum app. Alternatively, you can email or call us.",
+           "quick_link":"Quick Link",
+           "contactus":"Contact Us"
+        }
+    }
+]
