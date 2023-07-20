@@ -10,7 +10,7 @@ export default function Abouts()
       return(
         <Fragment>
          <Navbar/>
-  <section>
+  <section id="about">
   <div className='container'>
       <div className='row'>
         <div className='col-md-8 mt-5'>
