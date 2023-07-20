@@ -39,10 +39,16 @@
 }
 .sub-2
 {
-  color:#6c757d ;
+  color: #000000;
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 34px;
+  font-weight: 500;
+}
+p{
   font-size:20px;
-  text-align: center;
+  line-height:40px;
 }
 .fa
 {
@@ -60,8 +66,8 @@ th
 #footer
 {
   margin-top: 5%;
-  padding-top:5%;
-  padding-bottom:5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   background: #1a3058;
 }
 .footer-1

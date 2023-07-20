@@ -9,23 +9,11 @@ export default function Footer()
         <section id="footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-12">
                         <div className="d-flex justify-content-center">
-                            <h2 className="footer-1">{data[0].footer.logo}</h2>
+                            <span className="footer-1">Copyright ©2023 Design and Developed  By <b className="text-danger">Sathish</b></span>
                         </div>
-                        <div className="d-flex justify-content-center">
-                            <p className="footer-1">{data[0].footer.logo_description}</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="d-flex justify-content-center">
-                            <h2 className="footer-1">{data[0].footer.quick_link}</h2>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="d-flex justify-content-center">
-                            <h2 className="footer-1">{data[0].footer.contactus}</h2>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
