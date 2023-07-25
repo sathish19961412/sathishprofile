@@ -11,7 +11,7 @@ export default function Footer()
                 <div className="row">
                     <div className="col-md-12">
                         <div className="d-flex justify-content-center">
-                            <span className="footer-1">Copyright ©2023 Design and Developed  By <b className="text-danger">Sathish</b></span>
+                            <span className="footer-1">Copyright ©2023 Design and Developed  By <b className="color:#000;">Sathish</b></span>
                         </div>
                        
                     </div>

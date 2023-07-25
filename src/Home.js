@@ -1,5 +1,5 @@
 import data from './data/Homedata.json';
-import subimage from './sub_image.jpg';
+import subimage from './sub_image.png';
 import './banner.jpg';
 import { Fragment } from "react";
 import './App.css';
@@ -16,7 +16,12 @@ export default function Home()
           <div className='container'>
                <div className='row'>
                <div className='col-md-12 mt-5'>
-                    
+                    <div data-aos="zoom-in">
+                         <p className='banner-para' >I AM <b className='text-1'>BECOME A</b></p>
+                    </div>
+                   
+                     <h1 className='banner-title'><b className='text-1'>UI</b> DEVELOPER</h1>
+                     <h2 className='banner-title1'>PHP <b className='text-1'>DEVELOPER</b></h2>
                </div>
                </div>
           </div>
@@ -50,7 +55,13 @@ export default function Home()
                  <div className='d-flex justify-content-center'>
                     <p className='sub-2 '>Feel free to connect with me</p>
                  </div>
-                
+                 <div>
+                    <ul id="unorder">
+                         <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                         <li><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+                         <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                    </ul>
+                 </div>
               </div>
           </div>
      </div>

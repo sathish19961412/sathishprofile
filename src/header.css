@@ -1,6 +1,6 @@
 .navbar
 {
-  background:#2f7ad7;
+  background:linear-gradient(5deg, black, transparent),url('./header_footer.jpg');
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
 {
