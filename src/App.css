@@ -145,7 +145,7 @@ th
 }
 .banner-haead-1
 {
-  color: #1a3058;
+  color: #fff;
   font-size: 39px;
   font-weight: bold;
   /* max-width: 719px; */
@@ -154,6 +154,14 @@ th
   text-transform: capitalize;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 3px 10px rgb(64 60 67 / 30%);
+}
+label
+{
+  color:#fff;
+}
+.btn-primary
+{
+  background: red !important;
 }
 .heading
 {
