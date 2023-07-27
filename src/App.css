@@ -43,38 +43,13 @@ p{
 {
   text-align: center;
 }
-.banner-para{
-  color: #fff;
-  font-size: 32px;
+
+.font-change p
+{
+  font-size: 18px;
+  line-height: 38px;
   position: relative;
-  top:194px;
-  letter-spacing: 8px;
-  background: linear-gradient(270deg, black, transparent);
-  width: 500px;
-  padding: 15px;
-}
-.banner-title
-{
-    color: #fff;
-    font-size: 44px;
-    position: relative;
-    top:194px;
-    letter-spacing: 8px;
-    background: linear-gradient(270deg, black, transparent);
-    width: 500px;
-    padding: 15px;
-}
-.banner-title1
-{
-  color: #fff;
-    font-size: 44px;
-    position: relative;
-    top:194px;
-    left:100px;
-    letter-spacing: 8px;
-    background: linear-gradient(270deg, black, transparent);
-    width: 600px;
-    padding: 15px;
+  top: 48px;
 }
 .text-1
 {
@@ -86,13 +61,12 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
-  height:92vh;
 }
 #banner1
 {
   padding-top: 1%;
   padding-bottom: 1%;
-  background:linear-gradient(179deg, black, transparent),url('./header_footer.jpg');
+  background:url('./header_footer.jpg');
 }
 .sub-1
 {
@@ -231,55 +205,10 @@ text-shadow: 2px 3px 10px rgb(64 60 67 / 30%);
 
 @media only screen and (max-width:767px)
 {
-  #banner {
-    background:url('banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 29vh;
-  }
+
 }
 
-@media only screen and (max-width:480px)
+@media only screen and (max-width:680px)
 {
-  #banner {
-    background:url('banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 25vh;
-  }
-  .banner-para {
-    color: #fff;
-    font-size:14px;
-    position: relative;
-    top: -28px;
-    letter-spacing: 2px;
-    background: linear-gradient(270deg, black, transparent);
-    width: 219px;
-    padding: 2px;
-}
-.banner-title
-{
-    color: #fff;
-    font-size:14px;
-    position: relative;
-    top: -28px;
-    letter-spacing: 2px;
-    background: linear-gradient(270deg, black, transparent);
-    width:218px;
-    padding: 2px;
-}
-.banner-title1
-{
-    color: #fff;
-    font-size:14px;
-    position: relative;
-    top: -23px;
-    left: 10px;
-    letter-spacing: 8px;
-    background: linear-gradient(270deg, black, transparent);
-    width:218px;
-    padding: 2px;
-}
+
 }

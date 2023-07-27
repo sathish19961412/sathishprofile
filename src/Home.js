@@ -3,7 +3,6 @@ import subimage from './sub_image.png';
 import './banner.jpg';
 import { Fragment } from "react";
 import './App.css';
-
 import Navbar from './Navbar';
 import Footer  from './Footer';
 
@@ -12,34 +11,28 @@ export default function Home()
       return(
         <Fragment>
         <Navbar/>
-     <section id='banner'>
-          <div className='container'>
-               <div className='row'>
-               <div className='col-md-12 mt-5'>
-                    <div data-aos="zoom-in">
-                         <p className='banner-para' >I AM <b className='text-1'>BECOME A</b></p>
-                    </div>
-                   
-                     <h1 className='banner-title'><b className='text-1'>UI</b> DEVELOPER</h1>
-                     <h2 className='banner-title1'>PHP <b className='text-1'>DEVELOPER</b></h2>
-               </div>
-               </div>
-          </div>
-     </section>
 
 <section id="banner1">
      <div className='container'>
           <div className='row'>
-              <div className='col-md-8'>
-                 <h1 className='text-center heading'>{data[0].section2.title}</h1>
-                 <p className='text-justify'>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</p>
-                 <p className='text-justify'>I am fluent in classics like C++, Javascript and Go.</p>
-                 <p className='text-justify'>My field of Interest's are building new  Web Technologies and Products and also in areas related to Blockchain.</p>
-                 <p className='text-justify'>Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks  like React.js and Next.js</p>
+              <div className='col-md-12'>
+               <div className='d-flex justify-content-center'>
+                    <h1 className='text-center heading'>{data[0].section2.title}</h1>
+               </div>
+               </div>
+               <div className='col-md-8'>
+                    <div className='font-change'>
+                         <p className='text-justify'>I fell in love with programming and I have at least learnt something, I think… </p>
+                         <p className='text-justify'>I am fluent in classics like Html,Css,Javascript,Bootstrap,Php,Mysql</p>
+                         <p className='text-justify'>I also Developing To The Modern Javascript Library and Frameworks  like Reactjs,Angular,Vuejs</p>
+                         <p className='text-justify'>
+                              My field of Interest's are building new  Web Technologies.So I Self Learn To Python-(Django,Flask Frameworks) and MERN Stack Developing-(Mongodb,Expressjs,Reactjs,Nodejs)
+                         </p>
+                    </div>
               </div>
 
               <div className='col-md-4'>
-                    <div className='mt-5'>
+                    <div className='mt-0'>
                          <img src={subimage} className='img-responsive'></img>
                     </div>
               </div>
@@ -57,9 +50,18 @@ export default function Home()
                  </div>
                  <div>
                     <ul id="unorder">
-                         <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-                         <li><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
-                         <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                         <a href='https://www.facebook.com/people/Sathish-Sathish/pfbid02tJ5J3ZAPXn5HyjJyNeSV7eEqqBkK8rPXvJePgL4e6akUGkNmWf8n1cTE2WawCi5gl/' target='_blank'>
+                              <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                         </a>
+                         <a href='https://www.linkedin.com/in/sathish-8a3573137/' target='_blank'>
+                              <li><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+                         </a>
+                         <a href='https://www.instagram.com/cz12sathish/?igshid=MzNlNGNkZWQ4Mg%3D%3D' target='_blank'>
+                              <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                         </a>
+                         <a href='https://github.com/sathish19961412' target='_blank'>
+                         <li><i class="fa fa-github" aria-hidden="true"></i></li>
+                         </a>
                     </ul>
                  </div>
               </div>

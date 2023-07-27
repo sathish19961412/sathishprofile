@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 export default function Navbar(){
     return(
+        <header id="fixed">
         <nav className="navbar navbar-expand-lg navbar-light">
         <a className="navbar-brand text-white font-weight-bold" href="#">Sathish Protfolio</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,5 +28,6 @@ export default function Navbar(){
         </ul>
         </div>
      </nav>
+     </header>
     )
 }
