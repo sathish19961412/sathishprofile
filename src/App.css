@@ -212,3 +212,11 @@ text-shadow: 2px 3px 10px rgb(64 60 67 / 30%);
 {
 
 }
+
+@media only screen and (max-width:368px)
+{
+  .heading
+  {
+    font-size:2rem;
+  }
+}
