@@ -16,23 +16,23 @@ export default function Home()
      <div className='container'>
           <div className='row'>
               <div className='col-md-12'>
-               <div className='d-flex justify-content-center'>
+               <div className='d-flex justify-content-center' data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
                     <h1 className='text-center heading'>{data[0].section2.title}</h1>
                </div>
                </div>
                <div className='col-md-8'>
                     <div className='font-change'>
-                         <p className='text-justify'>I fell in love with programming and I have at least learnt something, I think… </p>
-                         <p className='text-justify'>I am fluent in classics like Html,Css,Javascript,Bootstrap,Php,Mysql</p>
-                         <p className='text-justify'>I also Developing To The Modern Javascript Library and Frameworks  like Reactjs,Angular,Vuejs</p>
-                         <p className='text-justify'>
+                         <p className='text-justify' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">I fell in love with programming and I have at least learnt something, I think… </p>
+                         <p className='text-justify' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" data-aos-once="true">I am fluent in classics like Html,Css,Javascript,Bootstrap,Php,Mysql</p>
+                         <p className='text-justify' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">I also Developing To The Modern Javascript Library and Frameworks  like Reactjs,Angular,Vuejs</p>
+                         <p className='text-justify' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800" data-aos-once="true">
                               My field of Interest's are building new  Web Technologies.So I Self Learn To Python-(Django,Flask Frameworks) and MERN Stack Developing-(Mongodb,Expressjs,Reactjs,Nodejs)
                          </p>
                     </div>
               </div>
 
               <div className='col-md-4'>
-                    <div className='mt-0'>
+                    <div className='mt-0 cssanimation hu__hu__' data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
                          <img src={subimage} className='img-responsive'></img>
                     </div>
               </div>
@@ -44,23 +44,23 @@ export default function Home()
      <div className='container'>
           <div className='row'>
               <div className='col-md-12'>
-                 <h1 className='text-center heading'>FIND ME ON</h1>
+                 <h1 className='text-center heading' data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">FIND ME ON</h1>
                  <div className='d-flex justify-content-center'>
-                    <p className='sub-2 '>Feel free to connect with me</p>
+                    <p className='sub-2' data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">Feel free to connect with me</p>
                  </div>
                  <div>
                     <ul id="unorder">
                          <a href='https://www.facebook.com/people/Sathish-Sathish/pfbid02tJ5J3ZAPXn5HyjJyNeSV7eEqqBkK8rPXvJePgL4e6akUGkNmWf8n1cTE2WawCi5gl/' target='_blank'>
-                              <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                              <li data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true"><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
                          </a>
                          <a href='https://www.linkedin.com/in/sathish-8a3573137/' target='_blank'>
-                              <li><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+                              <li data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true"><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
                          </a>
                          <a href='https://www.instagram.com/cz12sathish/?igshid=MzNlNGNkZWQ4Mg%3D%3D' target='_blank'>
-                              <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                              <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true"><i class="fa fa-instagram" aria-hidden="true"></i></li>
                          </a>
                          <a href='https://github.com/sathish19961412' target='_blank'>
-                         <li><i class="fa fa-github" aria-hidden="true"></i></li>
+                              <li data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true"><i class="fa fa-github" aria-hidden="true"></i></li>
                          </a>
                     </ul>
                  </div>

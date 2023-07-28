@@ -142,7 +142,7 @@ export default function Contacts()
                   <div className='col-md-3'>&nbsp;</div>
                   <div className='col-md-6 mt-5'>
                   <div className="form-content">
-                                    <form id="contactForm" ref={form} onSubmit={sendDataToMail} data-aos="fade-up">
+                                    <form id="contactForm" ref={form} onSubmit={sendDataToMail} data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
                                         <div className="form-row">
                                             <div className="col-md-6">
                                                 <div className="form-group">
