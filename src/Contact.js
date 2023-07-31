@@ -4,8 +4,7 @@ import {useRef} from "react";
 import { Fragment, useState} from "react";
 import emailjs from '@emailjs/browser';
 import data from './data/Homedata.json';
-import Navbar from './Navbar';
-import Footer  from './Footer';
+import { Element } from 'react-scroll'
 
 export default function Contacts()
 {
@@ -129,8 +128,7 @@ export default function Contacts()
     }
 
     return(
-        <Fragment>
-         <Navbar/>
+        <Element name='contact' className='contact'>
           <section id='banner1'>
             <div className='container'>
                 <div className='row'>
@@ -233,8 +231,7 @@ export default function Contacts()
             </div>
 
           </section>
-          <Footer></Footer>
-          </Fragment>
+          </Element>
     );
 }
 

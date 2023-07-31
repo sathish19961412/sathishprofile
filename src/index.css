@@ -16,3 +16,211 @@ code {
     top: 0px;
     z-index: 11;
 }
+p{
+  color: #fff;
+}
+#unorder
+{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left:0px;
+}
+#unorder li i
+{
+  
+  display:flex;
+  color:#fff;
+  margin-right: 5px;
+  font-size: 30px;
+}
+.App3
+{
+  float:center;
+}
+.productimg
+{
+  width:auto;
+  height:60%;
+}
+.text-1
+{
+  text-align: center;
+}
+
+.font-change p
+{
+  font-size: 18px;
+  line-height: 38px;
+  position: relative;
+  top: 48px;
+}
+.text-1
+{
+  color: #b4ff00;
+}
+#banner
+{
+  background:url('banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+#banner1
+{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background:url('./header_footer.jpg');
+}
+.sub-1
+{
+  color:#6c757d ;
+  font-family: 'Montserrat', sans-serif;
+}
+.sub-2
+{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 34px;
+  font-weight: 500;
+}
+p{
+  font-size:20px;
+  line-height:40px;
+}
+.fa
+{
+  color:#1a3058;
+}
+.table thead th 
+{
+  color: #1a3058;
+  padding: 3%;
+}
+th
+{
+  padding: 3% !important;
+}
+#footer
+{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background:linear-gradient(5deg, black, transparent),url('./header_footer.jpg');
+}
+.footer-1 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+}
+.table
+{
+  background:#f0f6fa !important;
+}
+.sub-title {
+  font-size: 0.8rem;
+}
+.banner-haead-1
+{
+  color: #fff;
+  font-size: 39px;
+  font-weight: bold;
+  /* max-width: 719px; */
+  text-align: justify;
+  line-height: 50px;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 3px 10px rgb(64 60 67 / 30%);
+}
+label
+{
+  color:#fff;
+}
+.btn-primary
+{
+  background: red !important;
+}
+.heading
+{
+  font-family: "Calibre-Bold",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+font-size: 3rem;
+font-weight: 600;
+line-height: 1;
+color: #fff;
+z-index: 1;
+margin: 30px;
+text-align: center;
+text-shadow: 2px 3px 10px rgb(64 60 67 / 30%);
+}
+.para-1
+{
+    text-align: justify;
+    line-height: 25px;
+    text-transform: capitalize;
+    width: 68%;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+.gp-1
+{
+  position: absolute;
+}
+.as-1
+{
+  position: relative;
+  left: 34%;
+}
+.banner-haead-2
+{
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width:767px)
+{
+
+}
+
+@media only screen and (max-width:680px)
+{
+
+}
+
+@media only screen and (max-width:368px)
+{
+  .heading
+  {
+    font-size:2rem;
+  }
+}

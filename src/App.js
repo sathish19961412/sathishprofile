@@ -2,10 +2,10 @@
 import React from 'react';
 import './App.css';
 import '../src/assets/css/cssanimation.css';
+import Navbar from './Navbar';
 import Home from './Home';
-import {Routes,Route} from 'react-router-dom';
 import Contacts from './Contact';
-import Abouts from './About';
+import Footer from './Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -13,11 +13,10 @@ AOS.init();
 function App() {
   return (
     <div className="App">
-        <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path='/about' element={<Abouts/>}></Route>
-            <Route path='/contact' element={<Contacts/>}></Route>
-        </Routes>
+        <Navbar />
+        <Home/>
+        <Contacts />
+        <Footer />
     </div>
   );
 }

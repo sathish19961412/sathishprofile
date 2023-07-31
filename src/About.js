@@ -9,7 +9,6 @@ export default function Abouts()
 {
       return(
         <Fragment>
-         <Navbar/>
   <section id="about">
   <div className='container'>
       <div className='row'>
@@ -22,7 +21,6 @@ export default function Abouts()
       </div>
   </div>
 </section>
-<Footer></Footer>
 </Fragment>
       );
 }
