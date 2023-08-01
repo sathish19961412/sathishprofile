@@ -1,0 +1,39 @@
+h1{
+    font-weight: 200;
+    color:#000;
+    font-size:36px;
+}
+h1>b
+{
+    font-weight: 600;
+    color:#2f7ad7;
+}
+.skils_set_box
+{
+    padding:50px;
+    border: 1px solid #000;
+    width:100%;
+    height:auto;
+}
+#skils_set{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.color-1
+{
+    font-weight: 600;
+    color:#2f7ad7;
+}
+.skils_set_box:hover
+{
+    background: #ebebeb;
+    border: 1px solid rgb(140, 0, 255);
+    transition:.3s;
+    transform: scale(0.9);
+}
+@media only screen and (max-width:767px){
+    .skils_set_box
+    {
+        margin-bottom: 5px;
+    }
+}
