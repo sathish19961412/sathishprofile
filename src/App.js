@@ -7,6 +7,8 @@ import Home from './Home';
 import Skills from './Skills/Skills';
 import Contacts from './Contact';
 import Footer from './Footer';
+import Projects from './Projects/Projects';
+import Experience from './Experience/Experience';
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -17,6 +19,8 @@ function App() {
         <Navbar />
         <Home/>
         <Skills />
+        <Projects />
+        <Experience />
         <Contacts />
         <Footer />
     </div>

@@ -1,7 +1,7 @@
 import data from './data/Homedata.json';
 import subimage from './sub_image.png';
 import './banner.jpg';
-import { Fragment } from "react";
+import React from "react";
 import './App.css';
 import { Element } from 'react-scroll'
 export default function Home()
