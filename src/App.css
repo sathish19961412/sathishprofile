@@ -137,17 +137,16 @@ label
 {
   background: red !important;
 }
-.heading
-{
+.heading {
   font-family: "Calibre-Bold",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-font-size: 3rem;
-font-weight: 600;
-line-height: 1;
-color: #fff;
-z-index: 1;
-margin: 30px;
-text-align: center;
-text-shadow: 2px 3px 10px rgb(64 60 67 / 30%);
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  z-index: 1;
+  margin: 30px;
+  text-align: center;
+  text-shadow: 2px 3px 10px rgb(64 60 67 / 30%);
 }
 .para-1
 {

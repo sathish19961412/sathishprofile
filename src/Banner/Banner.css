@@ -1,0 +1,16 @@
+#banner2
+{
+    background:#fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#banner2 .heading{
+    color: #2f7ad7;
+}
+
+#banner2 p
+{
+  color:#000;
+  font-weight:500;
+}
