@@ -1,4 +1,5 @@
 import React from 'react'
+import Image1 from '../assets/img/projects/techdigitalcorp.png'
 import {Element} from 'react-scroll'
 
 const Projects=()=>{
@@ -13,7 +14,41 @@ const Projects=()=>{
                              </div>
                          </div>
                     </div>
-                   
+                    <div className='row mt-2'>
+                         <div className='col-md-4'>
+                             <div className='d-flex justify-content-center'>
+                              <div className='mt-1'>
+                                        <a  data-fancybox="gallery" data-src={Image1} data-caption="BOOMI POOJA">
+                                        <img  src={Image1} className='img-fluid'  alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer" />
+                                        </a>
+                                        <a data-fancybox="gallery" data-src={Image1}></a>
+                                        <a data-fancybox="gallery" data-src={Image1}></a>
+                              </div>
+                             </div>
+                         </div>
+                         <div className='col-md-4'>
+                             <div className='d-flex justify-content-center'>
+                              <div className='mt-1'>
+                                        <a  data-fancybox="gallery" data-src={Image1} data-caption="BOOMI POOJA">
+                                        <img  src={Image1} className='img-fluid'  alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer" />
+                                        </a>
+                                        <a data-fancybox="gallery" data-src={Image1}></a>
+                                        <a data-fancybox="gallery" data-src={Image1}></a>
+                              </div>
+                             </div>
+                         </div>
+                         <div className='col-md-4'>
+                             <div className='d-flex justify-content-center'>
+                              <div className='mt-1'>
+                                        <a  data-fancybox="gallery" data-src={Image1} data-caption="BOOMI POOJA">
+                                        <img  src={Image1} className='img-fluid'  alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer" />
+                                        </a>
+                                        <a data-fancybox="gallery" data-src={Image1}></a>
+                                        <a data-fancybox="gallery" data-src={Image1}></a>
+                              </div>
+                             </div>
+                         </div>
+                    </div>
                  </div>
             </section>
         </Element>

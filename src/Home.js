@@ -29,7 +29,7 @@ export default function Home()
 
                     <div className='col-md-4'>
                               <div className='mt-0 cssanimation hu__hu__' data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
-                                   <img src={subimage} className='img-responsive'></img>
+                                   <img src={subimage} className='img-responsive' />
                               </div>
                     </div>
                     </div>
