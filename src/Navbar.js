@@ -4,7 +4,7 @@ export default function Navbar(){
     return(
         <header id="fixed">
         <nav className="navbar navbar-expand-lg navbar-light">
-        <Element name='home' className="navbar-brand font-weight-bold cssanimation typing"  data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">Sathish Protfolio</Element>
+        <Element name='home' className="navbar-brand font-weight-bold cssanimation typing"  data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">Sathish Portfolio</Element>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
         </button>

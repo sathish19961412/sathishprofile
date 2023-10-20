@@ -129,7 +129,7 @@ export default function Contacts()
 
     return(
         <Element name='contact' className='contact'>
-          <section id='banner1'>
+          <section id='banner4'>
             <div className='container'>
                 <div className='row'>
                   <div className='col-md-12 mt-5'>

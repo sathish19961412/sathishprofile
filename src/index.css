@@ -73,7 +73,6 @@ p{
 {
   padding-top: 1%;
   padding-bottom: 1%;
-  background:url('./header_footer.jpg');
 }
 .sub-1
 {
@@ -138,7 +137,11 @@ th
 }
 label
 {
-  color:#fff;
+  color:#000;
+}
+#banner4{
+  background:#f7f7f7;
+  padding-bottom:20px;
 }
 .btn-primary
 {

@@ -10,7 +10,7 @@ const Projects=()=>{
                     <div className='row'>
                          <div className='col-md-12'>
                              <div className='d-flex justify-content-center'>
-                                    <h1>OUR <b className='text-white'>Projects</b></h1>
+                                    <h1>OUR <b>Projects</b></h1>
                              </div>
                          </div>
                     </div>

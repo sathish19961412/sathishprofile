@@ -17,7 +17,7 @@ import django from '../assets/img/django.png'
 const Skills=()=>{
      return(
         <Element name='skils' className='skils'>
-            <section id='skils_set'>
+            <section id='banner4'>
                  <div className='container'>
                     <div className='row'>
                          <div className='col-md-12'>
