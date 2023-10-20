@@ -1,22 +1,22 @@
 .navbar
 {
-  background:linear-gradient(5deg, black, transparent),url('./header_footer.jpg');
+  background: #fff;;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
 {
-    color: rgb(255 203 12 / 90%);
+    color: #f75023;
     font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link
 {
     text-indent: 20px;
-    color:#ffffff;
-    font-weight: bold;
+    color:#000;
+    font-weight:500;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
 {
-    color: cornsilk;
-    font-weight: bold;
+    color: #000;
+    font-weight:500;
 }
 .navbar-expand-lg .navbar-nav
 {

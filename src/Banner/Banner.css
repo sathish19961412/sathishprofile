@@ -1,8 +1,11 @@
 #banner2
 {
-    background:#fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    background:url('../assets/img/banner.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #banner2 .heading{
@@ -11,6 +14,59 @@
 
 #banner2 p
 {
-  color:#000;
+  color: #000;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0px;
+}
+#hello
+{
+ font-weight: 600;
+ color:#f75023;
+}
+#name
+{
+  font-size: 60px;
+}
+#banner_section
+{
+  padding:36px;
+}
+#slug
+{
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+}
+.about_button
+{
+  background: #f75023;
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration:none;
+}
+.about_button span
+{
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration:none;
+}
+a{
+  text-decoration:none;
+}
+.designer
+{
+  color: #f75023;
+  font-weight:500;
+}
+.developer
+{
+   color: #2f7ad7;
+   font-weight:500;
+}
+.location
+{
+  color: #d31313;
   font-weight:500;
 }
