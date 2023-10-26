@@ -8,9 +8,27 @@
   font-family:Montserrat;
   src: url('./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
 }
+@font-face {
+  font-family:Lato;
+  src: url('./assets/fonts/Lato/Lato-Regular.ttf');
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+#banner7
+{
+  background:url('./assets/img/about_background.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+#banner5
+{
+  background:url('./assets/img/footer.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
 }
 p{
   color: #000;
@@ -47,10 +65,12 @@ p{
 
 .font-change p
 {
-  font-size: 18px;
-  line-height: 38px;
+  font-size: 16px;
   position: relative;
-  top: 48px;
+  top: 85px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  font-family: Lato;
 }
 .text-1
 {

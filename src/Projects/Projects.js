@@ -5,7 +5,7 @@ import {Element} from 'react-scroll'
 const Projects=()=>{
      return(
         <Element name='projects' className='Projects'>
-             <section id="banner1">
+             <section id="banner2">
                  <div className='container'>
                     <div className='row'>
                          <div className='col-md-12'>

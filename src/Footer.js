@@ -6,7 +6,7 @@ export default function Footer()
 {
     return(
         <>
-       <section id="banner1">
+       <section id="banner5">
      <div className='container'>
           <div className='row'>
               <div className='col-md-12'>

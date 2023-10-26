@@ -8,7 +8,7 @@ export default function Home()
 {
       return(
         <Element name='about' className='about'>
-          <section id="banner1">
+          <section id="banner7">
                <div className='container'>
                     <div className='row'>
                     <div className='col-md-12'>
@@ -28,7 +28,7 @@ export default function Home()
                     </div>
 
                     <div className='col-md-4'>
-                              <div className='mt-0 cssanimation hu__hu__' data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
+                              <div className='mt-0' data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
                                    <img src={subimage} className='img-responsive' />
                               </div>
                     </div>
