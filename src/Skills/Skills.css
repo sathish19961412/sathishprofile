@@ -11,7 +11,7 @@ h1>b
 .skils_set_box
 {
     padding:50px;
-    border: 1px solid #000;
+    border: 1px solid #c3bbbb;
     width:100%;
     height:auto;
 }
@@ -21,8 +21,8 @@ h1>b
 }
 .color-1
 {
+    color: #000;
     font-weight: 600;
-    color:#2f7ad7;
 }
 .skils_set_box:hover
 {
