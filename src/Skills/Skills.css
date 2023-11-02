@@ -10,10 +10,10 @@ h1>b
 }
 .skils_set_box
 {
-    padding:50px;
-    border: 1px solid #c3bbbb;
-    width:100%;
-    height:auto;
+    height: auto;
+    padding: 50px;
+    width: 100%;
+    box-shadow: 5px 5px 50px #d3d3d3;
 }
 #skils_set{
     padding-top: 20px;
@@ -27,9 +27,7 @@ h1>b
 .skils_set_box:hover
 {
     background: #ebebeb;
-    border: 1px solid rgb(140, 0, 255);
     transition:.3s;
-    transform: scale(0.9);
 }
 @media only screen and (max-width:767px){
     .skils_set_box

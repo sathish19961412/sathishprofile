@@ -1,6 +1,7 @@
 #border-4
 {
-    border:1px solid #c5c4c4;
-    padding:20px;
-    border-radius:10px;
+    border: 1px solid #c5c4c4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 4px #edd7d1;
 }
