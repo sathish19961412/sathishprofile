@@ -1,5 +1,6 @@
 import React from 'react'
 import {Element} from 'react-scroll'
+import ProgressBar from 'react-bootstrap/ProgressBar';
 import '../Skills/Skills.css'
 import html from '../assets/img/html.png'
 import css from '../assets/img/css.png'
@@ -13,8 +14,13 @@ import express from '../assets/img/express.png'
 import mongodb from '../assets/img/mongodb.png'
 import python from '../assets/img/python.png'
 import django from '../assets/img/django.png'
+import '../assets/css/bootstrap.min.css'
 
 const Skills=()=>{
+     const now = 90;
+     const html='HTML';
+     const now1 = 90;
+     const css='CSS';
      return(
         <Element name='skils' className='skils'>
             <section id='banner4'>
@@ -25,25 +31,20 @@ const Skills=()=>{
                                     <h1>OUR <b>Skills</b></h1>
                              </div>
                          </div>
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center '>
-                                        <img src={html} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>HTML5</span>
-                                </div>
-                             </div>
+                    
+                         <div className='col-md-6'>
+                            <ProgressBar className='p--1' now={now} variant='success' label={` ${html} - ${now}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now} variant="success" label={` ${html} - ${now}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now} variant="success" label={` ${html} - ${now}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now} variant="success" label={` ${html} - ${now}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now} variant="success" label={` ${html} - ${now}% `} /><br></br>
                          </div>
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                        <img src={css} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>CSS3</span>
-                                </div>
-                             </div>
+                         <div className='col-md-6'>
+                            <ProgressBar className='p--1' now={now} variant="success" label={` ${css} - ${now1}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now} variant="success" label={` ${css} - ${now1}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now} variant="success" label={` ${css} - ${now1}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now} variant="success" label={` ${css} - ${now1}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now} variant="success" label={` ${css} - ${now1}% `} /><br></br>
                          </div>
                          <div className='col-md-3'>
                             <div className='skils_set_box'>
