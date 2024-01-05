@@ -8,6 +8,15 @@ h1>b
     font-weight: 500;
     color:#000;
 }
+.progress {
+    display: flex;
+    height: 1.8rem !important;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #dfdfdf;
+    border-left-width: 0.75rem;
+    border: 1px solid #28a745;
+}
 .skils_set_box
 {
     height: auto;

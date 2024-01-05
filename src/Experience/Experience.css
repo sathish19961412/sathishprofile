@@ -2,3 +2,19 @@
 {
     background:#e6e4e4;
 }
+.exp-4
+{
+    line-height:36px;
+}
+.exp-5 {
+    background: #dddcdc;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #b9b4b3;
+    box-shadow: 20px 20px 0px #f75023;
+}
+.exp-5:hover{
+    transform: scale(1.01);
+    transition:.10s linear;
+    box-shadow: 20px 20px 0px #000;
+}

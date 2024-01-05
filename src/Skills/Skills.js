@@ -2,25 +2,31 @@ import React from 'react'
 import {Element} from 'react-scroll'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import '../Skills/Skills.css'
-import html from '../assets/img/html.png'
-import css from '../assets/img/css.png'
-import js from '../assets/img/js.png'
-import bootstrap from '../assets/img/bootstrap.png'
-import reactjs from '../assets/img/reactjs.png'
-import php from '../assets/img/php.png'
-import mysql from '../assets/img/mysql.png'
-import nodejs from '../assets/img/nodejs.png'
-import express from '../assets/img/express.png'
-import mongodb from '../assets/img/mongodb.png'
-import python from '../assets/img/python.png'
-import django from '../assets/img/django.png'
 import '../assets/css/bootstrap.min.css'
 
 const Skills=()=>{
+
      const now = 90;
      const html='HTML';
-     const now1 = 90;
+     const now1 = 85;
      const css='CSS';
+     const js='Javascript';
+     const now2 =60;
+     const bootstrap='Bootstrap'
+     const now3=90;
+     const react='Reactjs'
+     const now4=50;
+     const php='Php';
+     const now5=60;
+     const photoshop='Photoshop';
+     const mysql="Mysql";
+     const expressjs='Expressjs';
+     const nodejs='Nodejs';
+     const mongodb='Mongodb';
+     const python='Python';
+     const django='Django';
+    
+
      return(
         <Element name='skils' className='skils'>
             <section id='banner4'>
@@ -34,123 +40,22 @@ const Skills=()=>{
                     
                          <div className='col-md-6'>
                             <ProgressBar className='p--1' now={now} variant='success' label={` ${html} - ${now}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now} variant="success" label={` ${html} - ${now}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now} variant="success" label={` ${html} - ${now}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now} variant="success" label={` ${html} - ${now}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now} variant="success" label={` ${html} - ${now}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now1} variant='success' label={` ${css} - ${now1}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now2} variant="success" label={` ${js} - ${now2}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now3} variant="success" label={` ${bootstrap} - ${now3}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${react} - ${now4}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now5} variant="success" label={` ${php} - ${now5}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now5} variant="success" label={` ${photoshop} - ${now5}% `} /><br></br>
                          </div>
                          <div className='col-md-6'>
-                            <ProgressBar className='p--1' now={now} variant="success" label={` ${css} - ${now1}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now} variant="success" label={` ${css} - ${now1}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now} variant="success" label={` ${css} - ${now1}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now} variant="success" label={` ${css} - ${now1}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now} variant="success" label={` ${css} - ${now1}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now5} variant="success" label={` ${mysql} - ${now5}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${nodejs} - ${now4}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${expressjs} - ${now4}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${mongodb} - ${now4}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${python} - ${now4}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${django} - ${now4}% `} /><br></br>
                          </div>
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                        <img src={js} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>JAVASCRIPT</span>
-                                </div>
-                             </div>
-                         </div>
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                        <img src={bootstrap} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>BOOTSTRAP</span>
-                                </div>
-                             </div>
-                         </div>
-                    </div>
-                    <div className='row mt-3' data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                        <img src={reactjs} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>REACTJS</span>
-                                </div>
-                             </div>
-                         </div>
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                        <img src={php} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>PHP</span>
-                                </div>
-                             </div>
-                         </div>
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                        <img src={mysql} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>MYSQL</span>
-                                </div>
-                             </div>
-                         </div>
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                        <img src={nodejs} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>NODEJS</span>
-                                </div>
-                             </div>
-                         </div>
-                    </div>
-
-                    <div className='row mt-3' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                        <img src={express} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>EXpress JS</span>
-                                </div>
-                             </div>
-                         </div>
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                    <img src={mongodb} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>MONGODB</span>
-                                </div>
-                             </div>
-                         </div>
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                        <img src={python} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>PYTHON</span>
-                                </div>
-                             </div>
-                         </div>
-                         <div className='col-md-3'>
-                            <div className='skils_set_box'>
-                                <div className='d-flex justify-content-center'>
-                                        <img src={django} className='img-fluid' />
-                                </div>
-                                <div className='d-flex justify-content-center pt-3'>
-                                       <span className='color-1'>DJANGO</span>
-                                </div>
-                             </div>
-                         </div>
+                        
                     </div>
                  </div>
             </section>
