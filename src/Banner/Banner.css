@@ -70,3 +70,28 @@ a{
   color: #d31313;
   font-weight:500;
 }
+#banner4{
+  box-shadow: 22px 22px 0px #f75023;
+  border-radius: 20px;
+}
+#banner6{
+  box-shadow: -26px 0px 0px #f75023;
+  border-radius: 20px;
+}
+
+.skil-4{
+  width:70px;
+  height: auto;
+  position:relative;
+  border-radius:50px;
+  border: 2px solid #f75d33;
+}
+
+.skil-14{
+  width: 80px;
+  height: auto;
+  position: relative;
+  top: 100px;
+  border-radius: 50px;
+  border: 2px solid #f75d33;
+}
