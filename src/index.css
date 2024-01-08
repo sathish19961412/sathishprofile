@@ -13,7 +13,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 #fixed{
   position: sticky;
     top: 0px;
@@ -28,6 +27,10 @@ p{
   display: flex;
   justify-content: center;
   padding-left:0px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover
+{
+  color:#f75023;
 }
 #unorder li i
 {

@@ -21,8 +21,8 @@ function Banner() {
                             <div className='d-flex mt-5' data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
                                 <span id="hello">Hello, I'm</span>
                             </div>
-                            <div className='d-flex' data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
-                                <h1 id="name">Sathish</h1>
+                            <div className='d-flex ' data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
+                                <h1 id="name" >Sathish</h1>
                             </div>
                             <div className='d-flex' data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
                                 <p className='text-justify' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">A Creative <span className="designer">Web Designer</span> and  <span className="developer">Developer</span> From <span className="location">Coimbatore</span></p>

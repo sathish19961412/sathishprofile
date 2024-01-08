@@ -1,5 +1,6 @@
 
 import {Link,Element} from 'react-scroll';
+import './index.css';
 export default function Navbar(){
     return(
         <header id="fixed">
