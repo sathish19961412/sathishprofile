@@ -61,7 +61,7 @@ const Projects=()=>{
                                         <a data-fancybox="gallery" data-src={Image19}></a>
                               </div>
                              </div>
-                             <div className='d-flex justify-content-center'>
+                             <div className='d-flex justify-content-center mt-3'>
                                 <a  className="btn btn-success text-white" href='https://github.com/sathish19961412/Live_Project_Link'>Projects Link in Github</a> 
                              </div>
                          </div>
