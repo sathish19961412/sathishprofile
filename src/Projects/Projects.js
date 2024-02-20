@@ -38,9 +38,8 @@ const Projects=()=>{
                         <div className='col-md-4'>
                              <div className='d-flex justify-content-center'>
                               <div className='mt-1'>
-                                        <a  data-fancybox="gallery" data-src={Image1} data-caption="TechDigitalCorp">
-                                          <img  src={Image1} className='img-fluid' to="https://www.techdigitalcorp.com/"  />
-                                          <span>https://www.techdigitalcorp.com/</span>
+                                        <a  data-fancybox="gallery" data-src={Image1} data-caption="https://www.techdigitalcorp.com/">
+                                          <img  src={Image1} className='img-fluid'   />
                                         </a>
                                         <a data-fancybox="gallery" data-src={Image2} data-caption="AgriIndiaMart" href='https://agriindiamart.com/'></a>
                                         <a data-fancybox="gallery" data-src={Image3}></a>
