@@ -71,27 +71,30 @@ a{
   font-weight:500;
 }
 #banner4{
-  box-shadow: 22px 22px 0px #f75023;
+  box-shadow: 4px 6px 0px #f75023;
   border-radius: 20px;
 }
 #banner6{
-  box-shadow: -26px 0px 0px #f75023;
-  border-radius: 20px;
+    box-shadow: -6px 0px 0px #f75023;
+    border-radius: 20px;
 }
 
 .skil-4{
-  width:70px;
+  width: 50px;
   height: auto;
-  position:relative;
-  border-radius:50px;
+  position: relative;
+  top: 140px;
+  border-radius: 50px;
   border: 2px solid #f75d33;
+  left: -17px;
 }
 
 .skil-14{
-  width: 80px;
+  width: 62px;
   height: auto;
   position: relative;
-  top: 100px;
+  top: 43px;
   border-radius: 50px;
   border: 2px solid #f75d33;
+  left: -17px;
 }
