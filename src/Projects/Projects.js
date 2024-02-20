@@ -38,10 +38,10 @@ const Projects=()=>{
                         <div className='col-md-4'>
                              <div className='d-flex justify-content-center'>
                               <div className='mt-1'>
-                                        <a  data-fancybox="gallery" data-src={Image1} data-caption="https://www.techdigitalcorp.com/">
+                                        <a  data-fancybox="gallery" data-src={Image1}>
                                           <img  src={Image1} className='img-fluid'   />
                                         </a>
-                                        <a data-fancybox="gallery" data-src={Image2} data-caption="AgriIndiaMart" href='https://agriindiamart.com/'></a>
+                                        <a data-fancybox="gallery" data-src={Image2}></a>
                                         <a data-fancybox="gallery" data-src={Image3}></a>
                                         <a data-fancybox="gallery" data-src={Image10}></a>
                                         <a data-fancybox="gallery" data-src={Image13}></a>
@@ -60,6 +60,9 @@ const Projects=()=>{
                                         <a data-fancybox="gallery" data-src={Image18}></a>
                                         <a data-fancybox="gallery" data-src={Image19}></a>
                               </div>
+                             </div>
+                             <div className='d-flex justify-content-center'>
+                                <a href='https://github.com/sathish19961412/Live_Project_Link'>Projects Link in Github</a> 
                              </div>
                          </div>
                          <div className='col-md-4'>&nbsp;</div>
