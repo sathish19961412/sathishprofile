@@ -40,6 +40,7 @@ const Projects=()=>{
                               <div className='mt-1'>
                                         <a  data-fancybox="gallery" data-src={Image1} data-caption="TechDigitalCorp">
                                           <img  src={Image1} className='img-fluid' to="https://www.techdigitalcorp.com/"  />
+                                          <span>https://www.techdigitalcorp.com/</span>
                                         </a>
                                         <a data-fancybox="gallery" data-src={Image2} data-caption="AgriIndiaMart" href='https://agriindiamart.com/'></a>
                                         <a data-fancybox="gallery" data-src={Image3}></a>
