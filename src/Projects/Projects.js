@@ -62,7 +62,7 @@ const Projects=()=>{
                               </div>
                              </div>
                              <div className='d-flex justify-content-center'>
-                                <a href='https://github.com/sathish19961412/Live_Project_Link'>Projects Link in Github</a> 
+                                <a  className="btn btn-success text-white" href='https://github.com/sathish19961412/Live_Project_Link'>Projects Link in Github</a> 
                              </div>
                          </div>
                          <div className='col-md-4'>&nbsp;</div>
