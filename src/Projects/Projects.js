@@ -34,7 +34,8 @@ const Projects=()=>{
                          </div>
                     </div>
                     <div className='row mt-2'>
-                         <div className='col-md-4'>
+                        <div className='col-md-4'>&nbsp;</div>
+                        <div className='col-md-4'>
                              <div className='d-flex justify-content-center'>
                               <div className='mt-1'>
                                         <a  data-fancybox="gallery" data-src={Image1} data-caption="BOOMI POOJA">
@@ -45,29 +46,13 @@ const Projects=()=>{
                                         <a data-fancybox="gallery" data-src={Image10}></a>
                                         <a data-fancybox="gallery" data-src={Image13}></a>
                                         <a data-fancybox="gallery" data-src={Image16}></a>
-                              </div>
-                             </div>
-                         </div>
-                         <div className='col-md-4'>
-                             <div className='d-flex justify-content-center'>
-                              <div className='mt-1'>
-                                        <a  data-fancybox="gallery" data-src={Image4} data-caption="BOOMI POOJA">
-                                        <img  src={Image4} className='img-fluid'  alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer" />
-                                        </a>
+                                        <a data-fancybox="gallery" data-src={Image4}></a>
                                         <a data-fancybox="gallery" data-src={Image5}></a>
                                         <a data-fancybox="gallery" data-src={Image6}></a>
                                         <a data-fancybox="gallery" data-src={Image11}></a>
                                         <a data-fancybox="gallery" data-src={Image14}></a>
                                         <a data-fancybox="gallery" data-src={Image17}></a>
-                              </div>
-                             </div>
-                         </div>
-                         <div className='col-md-4'>
-                             <div className='d-flex justify-content-center'>
-                              <div className='mt-1'>
-                                        <a  data-fancybox="gallery" data-src={Image7} data-caption="BOOMI POOJA">
-                                        <img  src={Image7} className='img-fluid'  alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer" />
-                                        </a>
+                                        <a data-fancybox="gallery" data-src={Image7}></a>
                                         <a data-fancybox="gallery" data-src={Image8}></a>
                                         <a data-fancybox="gallery" data-src={Image9}></a>
                                         <a data-fancybox="gallery" data-src={Image12}></a>
@@ -77,6 +62,7 @@ const Projects=()=>{
                               </div>
                              </div>
                          </div>
+                         <div className='col-md-4'>&nbsp;</div>
                     </div>
                  </div>
             </section>
