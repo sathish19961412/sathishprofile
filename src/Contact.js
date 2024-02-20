@@ -97,7 +97,7 @@ export default function Contacts()
 
     const sendEmailToUser = () =>{
 
-        emailjs.sendForm('service_pz4z1z4', 'template_vbnscjs', form.current, 'DC9qaXQtPDMTem0tt')
+        emailjs.sendForm('service_ryv1vwq', 'template_i0uvizv', form.current, 'BNbpdbDeDAoYWKSFF')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
