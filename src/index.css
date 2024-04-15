@@ -49,6 +49,11 @@ p{
   width:auto;
   height:60%;
 }
+.border-btn
+{
+  border-radius:10px !important;
+  font-weight: 700;
+}
 .text-1
 {
   text-align: center;

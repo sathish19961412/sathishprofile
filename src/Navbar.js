@@ -1,7 +1,13 @@
 
 import {Link,Element} from 'react-scroll';
 import './index.css';
+import pdf from './assets/pdf/sathishupdate2024.pdf'
 export default function Navbar(){
+
+    const styles={
+         background:"#28a745",
+         color:'#fff',
+    };
     return(
         <header id="fixed">
         <nav className="navbar navbar-expand-lg navbar-light">
@@ -29,7 +35,9 @@ export default function Navbar(){
              <li className="nav-item">
                 <Link to="contact" smooth={true} duration={500} className="nav-link">Contact</Link>
              </li>
-
+             <li className="nav-item">
+                <a href={pdf} target='_blank' className='btn btn-md border-btn' style={styles}>Resume</a>
+            </li>
         </ul>
         </div>
      </nav>
