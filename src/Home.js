@@ -8,7 +8,7 @@ export default function Home()
 {
       return(
         <Element name='about' className='about'>
-          <section id="banner7">
+          <section>
                <div className='container'>
                     <div className='row'>
                     <div className='col-md-12'>

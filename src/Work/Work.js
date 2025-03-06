@@ -6,7 +6,7 @@ import './work.css';
 function Work() {
   return (
     <div>
-       <section className='mb-5'>
+       <section className='pb-5' id="banner7">
              <div className='container'>
                 <div className='row'>
                     <div className='col-md-12'>

@@ -15,15 +15,15 @@ const Experience=()=>{
                          </div>
 
                          <div className='col-md-6'>
-                              <div className='exp-5'>
+                              <div className='exp-5 mt-3'>
                                    <p className='text-justify exp-4'>
-                                        We are Experience in UI Design and Developmenmt More than 2.5 years.20+ Website Developmenmt Successfully.
+                                        We are Experience in UI Design and Developmenmt More than 3.5 years.20+ Website Developmenmt Successfully.
 
                                         We are Experience in Html,Css,Javascript,Bootstrap,Corephp,Mysql
                                   
-                                        We are knowledge and Working To the Javascript-Reactjs,angular,nodejs,expressjs,mongodb
+                                        We are knowledge and Working To the Javascript-Reactjs,nodejs,expressjs,mongodb
                                 
-                                        We are knowledge and Working To the Python-Python,Django,FastAPI
+                                        We are knowledge and Working To the Python,Django,
                                    </p>
                               </div>
                                   

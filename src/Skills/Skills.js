@@ -18,6 +18,7 @@ const Skills=()=>{
      const now4=50;
      const php='Php';
      const now5=60;
+     const now6=30;
      const photoshop='Photoshop';
      const mysql="Mysql";
      const expressjs='Expressjs';
@@ -29,7 +30,7 @@ const Skills=()=>{
 
      return(
         <Element name='skils' className='skils'>
-            <section id='banner4'>
+            <section>
                  <div className='container'>
                     <div className='row'>
                          <div className='col-md-12'>
@@ -45,15 +46,15 @@ const Skills=()=>{
                             <ProgressBar className='p--1' now={now3} variant="success" label={` ${bootstrap} - ${now3}% `} /><br></br>
                             <ProgressBar className='p--1' now={now4} variant="success" label={` ${react} - ${now4}% `} /><br></br>
                             <ProgressBar className='p--1' now={now5} variant="success" label={` ${php} - ${now5}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now5} variant="success" label={` ${photoshop} - ${now5}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now6} variant="success" label={` ${photoshop} - ${now5}% `} /><br></br>
                          </div>
                          <div className='col-md-6'>
                             <ProgressBar className='p--1' now={now5} variant="success" label={` ${mysql} - ${now5}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${nodejs} - ${now4}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${expressjs} - ${now4}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${mongodb} - ${now4}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${python} - ${now4}% `} /><br></br>
-                            <ProgressBar className='p--1' now={now4} variant="success" label={` ${django} - ${now4}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now6} variant="success" label={` ${nodejs} - ${now6}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now6} variant="success" label={` ${expressjs} - ${now6}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now6} variant="success" label={` ${mongodb} - ${now6}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now6} variant="success" label={` ${python} - ${now6}% `} /><br></br>
+                            <ProgressBar className='p--1' now={now6} variant="success" label={` ${django} - ${now6}% `} /><br></br>
                          </div>
                         
                     </div>
