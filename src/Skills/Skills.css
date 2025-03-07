@@ -8,6 +8,15 @@ h1>b
     font-weight: 500;
     color:#000;
 }
+#skill{
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    padding: 10px 0px;
+}
+#skill img
+{
+    text-align: center;
+}
 .progress {
     display: flex;
     height: 1.8rem !important;
