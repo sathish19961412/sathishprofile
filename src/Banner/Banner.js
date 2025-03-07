@@ -1,14 +1,6 @@
 import React from "react";
 import './Banner.css';
 import subimage from '../sub_image.png';
-import js from '../assets/img/js.png'
-import html from '../assets/img/html.png'
-import css from '../assets/img/css.png'
-import bootstrap from '../assets/img/bootstrap.png'
-import php from '../assets/img/php.png';
-import python from '../assets/img/python.png';
-import nodejs from '../assets/img/nodejs.png';
-import mysql from '../assets/img/mysql.png'
 import { Element } from 'react-scroll'
 
 function Banner() {
@@ -36,27 +28,7 @@ function Banner() {
                         </div>
                         <div className='col-md-5'>
                             <div className='d-flex justify-content-center' data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true" id="banner6">
-                                <div className="cssanimation hu__hu__">
-                                    <img src={html} className='skil-4 bg-white p-2' />
-                                    <div className="mt-1 mb-1"></div>
-                                    <img src={css} className='skil-4 bg-white p-2' />
-                                    <div className="mt-1 mb-1"></div>
-                                    <img src={bootstrap} className='skil-4 bg-white p-2' />
-                                    <div className="mt-1 mb-1"></div>
-                                    <img src={js} className='skil-4 bg-white p-2' />
-                                </div>
-                                
                                 <img src={subimage} className='img-responsive' id="banner4" />
-                                <div className="cssanimation hu__hu__">
-                                    <img src={php} className='skil-14 bg-white p-2' />
-                                    <div className="mt-1 mb-1"></div>
-                                    <img src={python} className='skil-14 bg-white p-2' />
-                                    <div className="mt-1 mb-1"></div>
-                                    <img src={nodejs} className='skil-14 bg-white p-2' />
-                                    <div className="mt-1 mb-1"></div>
-                                    <img src={mysql} className='skil-14 bg-white p-2' />
-                                </div>
-                                
                             </div>
                         </div>
                     </div>
