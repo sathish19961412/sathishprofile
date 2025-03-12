@@ -2,9 +2,13 @@ import React from 'react'
 import '../Experience/Experience.css'
 import {Element} from 'react-scroll'
 import  exp from '../assets/img/exp.png'
+import { Helmet } from 'react-helmet'
 const Experience=()=>{
      return(
         <Element name='exp' className='exp'>
+               <Helmet>
+                   <title>Sathish Experience</title>
+               </Helmet>
              <section id='experience' className='pt-5 pb-5'>
                  <div className='container'>
                     <div className='row'>

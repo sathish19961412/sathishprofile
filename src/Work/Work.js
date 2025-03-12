@@ -2,10 +2,14 @@ import React from 'react'
 import webdesign from '../assets/img/web_design.png'
 import frontend from '../assets/img/frontend.png'
 import fullstack from '../assets/img/fullstack.png'
+import { Helmet } from 'react-helmet'
 import './work.css';
 function Work() {
   return (
     <div>
+        <Helmet>
+           <title>Sathish Works</title>
+        </Helmet>
        <section className='pb-5' id="banner7">
              <div className='container'>
                 <div className='row'>

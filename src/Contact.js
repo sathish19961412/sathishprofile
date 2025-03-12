@@ -5,7 +5,7 @@ import { Fragment, useState} from "react";
 import emailjs from '@emailjs/browser';
 import data from './data/Homedata.json';
 import { Element } from 'react-scroll'
-
+import { Helmet } from 'react-helmet';
 export default function Contacts()
 {
 
@@ -129,6 +129,9 @@ export default function Contacts()
 
     return(
         <Element name='contact' className='contact'>
+            <Helmet>
+                <title>Sathish Contact</title>
+            </Helmet>
           <section id='banner4'>
             <div className='container'>
                 <div className='row'>

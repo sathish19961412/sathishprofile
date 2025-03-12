@@ -14,13 +14,17 @@ import '../assets/img/git.png'
 import '../assets/img/photoshop.jpg'
 import '../Skills/Skills.css'
 import '../assets/css/bootstrap.min.css'
-
+import { Helmet } from 'react-helmet'
 const Skills=()=>{
 
     
    
      return(
+      
         <Element name='skils' className='skils'>
+            <Helmet>
+              <title>Sathish Skills</title>
+            </Helmet> 
             <section>
                  <div className='container'>
                     <div className='row'>

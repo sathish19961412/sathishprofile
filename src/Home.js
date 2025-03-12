@@ -4,10 +4,14 @@ import './banner.jpg';
 import React from "react";
 import './App.css';
 import { Element } from 'react-scroll'
+import { Helmet } from "react-helmet";
 export default function Home()
 {
       return(
         <Element name='about' className='about'>
+          <Helmet>
+              <title>Sathish About</title>
+          </Helmet>
           <section>
                <div className='container'>
                     <div className='row'>

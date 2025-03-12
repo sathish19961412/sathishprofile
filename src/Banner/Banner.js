@@ -2,10 +2,13 @@ import React from "react";
 import './Banner.css';
 import subimage from '../sub_image.png';
 import { Element } from 'react-scroll'
-
+import { Helmet } from "react-helmet";
 function Banner() {
   return (
     <Element name='about' className='about'>
+          <Helmet>
+            <title>Sathish Home</title>
+          </Helmet> 
           <section id="banner2">
                <div className='container'>
                     <div className='row' id="banner_section">

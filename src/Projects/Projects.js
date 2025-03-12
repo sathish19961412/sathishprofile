@@ -18,12 +18,15 @@ import Image16 from '../assets/img/projects/svve-in-2023.png'
 import Image17 from '../assets/img/projects/technocap-net.png'
 import Image18 from '../assets/img/projects/truweigh-in-infra.png'
 import Image19 from '../assets/img/projects/gomakemytrip.png'
-
+import { Helmet } from 'react-helmet'
 import {Element} from 'react-scroll'
 
 const Projects=()=>{
      return(
         <Element name='projects' className='Projects'>
+               <Helmet>
+                   <title>Sathish Works</title>
+               </Helmet> 
              <section id="banner2">
                  <div className='container'>
                     <div className='row'>
