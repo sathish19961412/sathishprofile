@@ -22,10 +22,10 @@ export default function Home()
                          </div>
                          <div className='col-md-8'>
                               <div className='font-change'>
-                                   <p className='text-justify' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">I fell in love with programming and I have at least learnt something, I think… </p>
-                                   <p className='text-justify' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" data-aos-once="true">I am fluent in classics like Html,Css,Javascript,Bootstrap,Php,Mysql</p>
-                                   <p className='text-justify' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">I also Developing To The Modern Javascript Library and Frameworks  like Reactjs,Angular,Vuejs</p>
-                                   <p className='text-justify' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800" data-aos-once="true">
+                                   <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">I fell in love with programming and I have at least learnt something, I think… </p>
+                                   <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" data-aos-once="true">I am fluent in classics like Html,Css,Javascript,Bootstrap,Php,Mysql</p>
+                                   <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">I also Developing To The Modern Javascript Library and Frameworks  like Reactjs,Angular,Vuejs</p>
+                                   <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800" data-aos-once="true">
                                         My field of Interest's are building new  Web Technologies.So I Self Learn To Python-(Django,Flask Frameworks) and MERN Stack Developing-(Mongodb,Expressjs,Reactjs,Nodejs)
                                    </p>
                               </div>

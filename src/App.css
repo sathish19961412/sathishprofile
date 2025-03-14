@@ -22,6 +22,7 @@
   background-size: cover;
   background-repeat:no-repeat;
   background-position:center;
+  background-attachment: fixed;
 }
 #banner5
 {
@@ -29,6 +30,7 @@
   background-size: cover;
   background-repeat:no-repeat;
   background-position:center;
+  background-attachment: fixed;
 }
 p{
   color: #000;
@@ -65,12 +67,13 @@ p{
 
 .font-change p
 {
+  font-family: Lato;
   font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
   position: relative;
   top: 85px;
-  letter-spacing: 0px;
-  font-weight: 500;
-  font-family: Lato;
+  color: #383838;
 }
 .text-1
 {
@@ -177,6 +180,7 @@ label
     font-weight: 500;
     font-family: 'Lato', sans-serif;
 }
+
 .gp-1
 {
   position: absolute;
@@ -221,7 +225,18 @@ label
     transform: rotate(360deg);
   }
 }
-
+@media only screen and (max-width:991px)
+{
+  .font-change p {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    top:0px;
+    color: #383838;
+  }
+}
 @media only screen and (max-width:767px)
 {
 

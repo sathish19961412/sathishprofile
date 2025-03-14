@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Experience/Experience.css'
 import {Element} from 'react-scroll'
-import  exp from '../assets/img/exp.png'
 import { Helmet } from 'react-helmet'
 const Experience=()=>{
      return(
@@ -9,7 +8,7 @@ const Experience=()=>{
                <Helmet>
                    <title>Sathish Experience</title>
                </Helmet>
-             <section id='experience' className='pt-5 pb-5'>
+             <section  className='pt-5 pb-5'>
                  <div className='container'>
                     <div className='row'>
                          <div className='col-md-12'>
@@ -18,22 +17,22 @@ const Experience=()=>{
                              </div>
                          </div>
 
-                         <div className='col-md-6'>
+                         <div className='col-md-12' id='experience'>
                               <div className='exp-5 mt-3'>
-                                   <p className='text-justify exp-4'>
-                                        We are Experience in UI Design and Developmenmt More than 3.5 years.20+ Website Developmenmt Successfully.
-
-                                        We are Experience in Html,Css,Javascript,Bootstrap,Corephp,Mysql
-                                  
-                                        We are knowledge and Working To the Javascript-Reactjs,nodejs,expressjs,mongodb
-                                
+                                   <p className='exp-4'>
+                                        We are Experience in UI Design and Developmenmt More than 3.7 years.20+ Website Developmenmt Successfully.
+                                   </p>
+                                   <p>
+                                        We are Experience in Html,Css,Javascript,Bootstrap,<br></br>Corephp,Mysql
+                                   </p>
+                                   <p>
+                                        We are knowledge and Working To the Javascript Reactjs,nodejs,expressjs,mongodb
+                                   </p>
+                                   <p>
                                         We are knowledge and Working To the Python,Django,
                                    </p>
                               </div>
                                   
-                         </div>
-                         <div className='col-md-6'>
-                              <img src={exp} className='img-fluid'/>
                          </div>
                     </div>
                    

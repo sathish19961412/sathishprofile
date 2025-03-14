@@ -31,3 +31,10 @@
     padding-left: 2%;
     padding-right: 2%;
 }
+
+@media only screen and (max-width:1200px) {
+  .navbar-expand-lg .navbar-nav {
+    left: 20%;
+    position: relative;
+ }
+}
