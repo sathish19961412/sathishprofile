@@ -1,7 +1,7 @@
 
 import {Link,Element} from 'react-scroll';
 import './index.css';
-import pdf from './assets/pdf/sathishupdate2024.pdf'
+import pdf from './assets/pdf/sathish_2025.pdf'
 export default function Navbar(){
 
     const styles={
