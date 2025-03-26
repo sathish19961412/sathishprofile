@@ -23,7 +23,7 @@ function Banner() {
                                 <p className='text-justify' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">A Creative <span className="designer">Web Designer</span> and  <span className="developer">Developer</span> From <span className="location">Coimbatore</span></p>
                             </div>
                             <div className='d-flex' data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
-                                <span className='text-justify' id="slug" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">I'm creative designer based in New York, and I'm very passionate and dedicated to my work.</span>
+                                <span className='text-justify' id="slug" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">I'm creative designer based in Coimbatore, and I'm very passionate and dedicated to my work.</span>
                             </div>
                             <div className='d-flex mt-4' data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
                                  <a href="" className="about_button"><span>About Me</span></a>
